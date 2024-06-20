@@ -10,7 +10,7 @@ describe("Calculate Number", () => {
   });
   describe("Calculate subtraction of two floats", () => {
     it('Returns -4', () => {
-      expect(calculateNumber('SUBTRACT', 1.4, 4.5)).to.egual(-4);
+      expect(calculateNumber('SUBTRACT', 1.4, 4.5)).to.equal(-4);
     });
   });
   describe("Calculate division of two floats", () => {

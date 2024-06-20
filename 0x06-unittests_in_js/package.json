@@ -1,17 +1,12 @@
 {
-  "name": "0x06-unittests_in_js",
-  "version": "1.0.0",
-  "description": "> This directory contains exercises on unit testing in JavaScript using Jest.",
-  "main": "0-calcul.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.4.0"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "request": "^2.88.2",
+    "sinon": "^14.0.0"
+  }
 }
